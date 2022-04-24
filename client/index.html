@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hra s kostkou</title>
+</head>
+<center>
+    <canvas id="canvas" width="1600" height="900" oncontextmenu="return false"></canvas>
+</center>
+<body>
+</body>
+<style>
+    body{
+        margin: 0px;
+        background-color: black;
+        overflow: hidden;
+    }
+    canvas{
+        image-rendering: optimizeQuality;
+    }
+</style>
+<script>
+    /*
+    canvas {
+        image-rendering: crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+    }
+    */
+</script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="source/langs.js"></script>
+<script src="modules/leaderboard.js"></script>
+<script src="source/dialogues.js"></script>
+<script src="modules/game.js"></script>
+<script src="modules/dice.js"></script>
+<script src="modules/projectiles.js"></script>
+<script src="modules/dialogue.js"></script>
+<script src="modules/window.js"></script>
+<script src="modules/character.js"></script>
+<script src="source/buttonStyles.js"></script>
+<script src="modules/music.js"></script>
+<script src="index.js"></script>
+<script src="onload.js"></script>
+
+</html>
